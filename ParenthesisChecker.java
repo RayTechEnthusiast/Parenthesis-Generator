@@ -8,7 +8,7 @@ public class ParenthesisChecker {
 
     //
     //  Pre condition String s contains only (, ), {, }, [, ]
-    //  Post condition Returns true only if each adjacent pair is correct.
+    //  Post condition Returns true only if each pair is correct.
     //
     public static boolean isValid(String s) {
         if (s.length() % 2 != 0) { //because if it's odd you can never have a pair
